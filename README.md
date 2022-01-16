@@ -2,6 +2,14 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
+Install all dependencies using composer
+php artisan commad for create model,controller,migration 
+php artisan make:model Product -m
+php artisan migrate
+ php artisan make:controller Api\ProductController
+ api access through token consume vue js axios 
+ http://localhost/api/products  for post,get method 
+ http://localhost/api/products/{id} for update,delte put,delete method
 ### What is this repository for? ###
 
 * Quick summary
