@@ -21,7 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('price');            
             $table->text('upc');
             $table->string('status');
-            $table->binary('prodimage');
+            $table->binary('prodimg');
             $table->timestamps();
         });
     }
